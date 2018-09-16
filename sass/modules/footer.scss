@@ -1,0 +1,18 @@
+@import 'colors.scss';
+
+.footer {
+    min-height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: $footer-color;
+    color: $text-color;
+    -webkit-box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.75);
+    h3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
